@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* __________________END OF STYLERESET_______________ */
+
+
+/* fonts */
+
+@font-face {
+	font-family: NavFontTitle;
+	src: url('./font/Raleway-Light-webfont.ttf');
+}
+
+@font-face {
+	font-family: NavFont;
+	src: url('./font/Raleway-ExtraLight-webfont.ttf');
+}
+
+/* page layout */
+
+.left_column {
+	border: gray dashed 1px;
+}
+
+.right_column {
+	float: left;
+	border: blue dashed 1px;
+}
+
+/* navigation */
+
+.left_column #left_container {
+	border: gray dashed 1px;
+}
+
+.left_column #h1_name {
+	border: gray dashed 1px;
+}
+
+.left_column #h1_subline {
+	border: gray dashed 1px;
+}
+
+
+#ul_nav_list {
+	width: 200px;
+	border: gray dashed 1px;
+}
+
+.nav_list li {
+	border: gray dashed 1px;
+}
+
+.nav_list a {
+}
+
+.nav_list #svg {
+}
+
+/* blog */
