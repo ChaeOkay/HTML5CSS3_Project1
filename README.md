@@ -1,3 +1,3 @@
-#HTML5 & CSS3 Project
+#Mock Personal Webpage
 
-This mock-personal web page is a study of HTML5 CCS3 & JQuery, built ground up. 
+Experimenting with HTML5 CCS3 & JQuery. 
