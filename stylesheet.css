@@ -82,10 +82,12 @@ a:link, a:visited, a:hover, a:active{
 	top: auto;
 	float: left;
 	position: fixed;
-	padding: 260px 20px 0px 0px;
+	padding: 250px 20px 0px 0px;
 	margin: 0px 0px 0px 140px;
 	background-color: rgba(255,255,255,0.60);
 	box-shadow: -1px 1px 5px #CBCBCB;
+		-webkit-box-shadow: -1px 1px 5px #CBCBCB; 
+		-moz-box-shadow: -1px 1px 5px #CBCBCB;
 }
 
 .right_column {
@@ -98,24 +100,39 @@ a:link, a:visited, a:hover, a:active{
 /* navigation */
 
 #ul_nav_list {
-	width: 100px;
+	width: 161px;
 	float: right;
+	padding: 0px 20px 0px 20px ;
+	margin-right: -41px;
 //	border: red dashed 1px;
 }
 
-#ul_nav_list li {
+.nav_li {
+	font-family: NavFont, Arial, Sans-Serif;
+	font-size: 15px;
+	text-shadow: -1px -1px 3px #a3a3a3;
 	line-height: 30px;
+	border-radius: 0px 5px 50px 0px;
+		-webkit-border-radius: 0px 5px 50px 0px;
+		-moz-border-radius: 0px 5px 50px 0px;
+	background-color: rgba(0, 0 , 0, 0.05);
+    	-moz-transition: background-color 0.3s;
+    	-webkit-transition: background-color 0.3s;
+    	transition: background-color 0.3s;
 //	border: green dashed 1px;
 }
 
+.nav_li:hover {
+	background-color: rgba(0, 0 , 0, 0.00);
+}
+
 #ul_nav_list a {
-	font-family: NavFont, Arial, Sans-Serif;
-	text-shadow: -1px -1px 3px #a3a3a3;
 	padding: 0px 0px 0px 8px;
 }
 
 #ul_nav_list #svg {
 	float: left;
+	padding: 0px 0px 0px 30px;
 }
 
 /* Mainpage */
@@ -127,6 +144,8 @@ a:link, a:visited, a:hover, a:active{
 	font-weight: 100px;
 	margin: 0px 0px 0px 0px;
 	text-shadow: -2px -1px 4px #a3a3a3;
+		-webkit-text-shadow: -2px -1px 4px #a3a3a3;
+		-moz-text-shadow: -2px -1px 4px #a3a3a3;
 }
 
 .right_column #h1_subline {
@@ -150,11 +169,9 @@ a:link, a:visited, a:hover, a:active{
 	height: 1500px;
 	opacity: 0.92;
 	zoom: 0.5;
-    -moz-transform: scale(0.75);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.75);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.75);
-    -webkit-transform-origin: 0 0;
+   		-moz-transform: scale(0.75);
+   		-moz-transform-origin: 0 0;
+    	-webkit-transform: scale(0.75);
+    	-webkit-transform-origin: 0 0;
 	box-shadow: -2px -1px 10px #747474;
 }
