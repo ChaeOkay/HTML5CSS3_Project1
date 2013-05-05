@@ -1,20 +1,10 @@
-// JQuery test
 $(document).ready(function(){
-	alert(1);
+	$("#iframe").hide().fadeIn(6000);
+	$("#left_column").hide().fadeIn(1000);
 });
 
-/*
-NOT WORKING
 $(document).ready(function(){
-	$('#nav_li').hover(
-		function(){
-			console.log( "mouseneter");
-		$(this).addClass('.nav_li_hover');
-		},
-		function(){
-			console.log( "mouseleave");
-		$(this).removeClass('.nav_li_hover');	
-		},
-	);
+	$("#ul_nav_list").hide().fadeIn(3000);
+	$("#h1_name").hide().fadeIn(3000);
+	$("#h1_subline").hide().fadeIn(3000);
 });
-*/
