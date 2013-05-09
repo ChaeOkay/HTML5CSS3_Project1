@@ -132,12 +132,12 @@ a:link, a:visited, a:hover, a:active{
 	top: 0;
 	height: 100%;
 	font-family: NavFont, Arial, Sans-Serif;
-	display: block;
-	font-size: 15px;
-	line-height: 30px; }
+	font-size: 15px; }
 	
 	.mainnav li a {
 		background-color: rgba(0, 0 , 0, 0.05);
+		display: block;
+		line-height: 30px;
 		padding-left: 30px;
 		text-shadow: -1px -1px 3px #a3a3a3;
 		border-radius: 0 5px 50px 0;
