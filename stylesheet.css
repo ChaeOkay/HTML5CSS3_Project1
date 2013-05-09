@@ -81,7 +81,18 @@ a:link, a:visited, a:hover, a:active{
 	margin-right: 5px; }
 .pencil {
   background-image: url(./image/pencil2.svg), none; }
-
+.bell {
+	background-image: url(./image/bell.svg), none; }
+.books {
+	/* backup */
+	background-image: url(./image/books.svg), none; }
+.clock {
+	background-image: url(./image/clock.svg), none; }
+.star {
+	background-image: url(./image/star.svg), none; }
+.linkedin {
+	background-image: url(./image/linkedin.svg), none; }
+		
 /* page layout */
 
 /*.left_column {
