@@ -72,28 +72,29 @@ a:link, a:visited, a:hover, a:active{
 
 .icon {
 	display: inline-block;
-	height: 9px;
-	width: 9px;
-	margin-right: 5px; }
+	width: 8px;
+	height: 8px;
+	background-image: url(./image/sprites.png);
+	background-size: 200px 8px;
+	background-repeat: no-repeat;
+	margin: 0 12px 0 10px; 
+//	border: blue dashed 1px; }
 	
 .pencil {
 	/* backup */
-  background-image: url(./image/pencil2.svg), none; }
+	background-position: -32px 0; }
 .bell {
 	/* backup */
-	background-image: url(./image/bell.svg), none; }
+	background-position: -96px 0; }
 .books {
 	/* backup */
-	background-image: url(./image/books.svg), none; }
+	background-position: -48px 0; }
 .clock {
 	/* backup */
-	background-image: url(./image/clock.svg), none; }
+	background-position: -80px 0; }
 .star {
 	/* backup */
-	background-image: url(./image/star.svg), none; }
-.linkedin {
-	/* backup */
-	background-image: url(./image/linkedin.svg), none; }
+	background-position: -128px 0; }
 		
 /* page layout */
 
