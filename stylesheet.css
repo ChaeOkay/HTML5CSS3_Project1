@@ -74,7 +74,7 @@ a:link, a:visited, a:hover, a:active{
 	display: inline-block;
 	width: 8px;
 	height: 8px;
-	background-image: url(./image/sprites.png);
+	background-image: url(./image/sprites.svg), url(./image/sprites.png);
 	background-size: 200px 8px;
 	background-repeat: no-repeat;
 	margin: 0 12px 0 10px; 
