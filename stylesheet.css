@@ -53,6 +53,7 @@ table {
 
 
 /* body */
+
 body {
     background: url('./image/texture.jpg') top / 100% no-repeat;
     display: inline-block; }
@@ -74,30 +75,29 @@ a:link, a:visited, a:hover, a:active{
 	display: inline-block;
 	width: 8px;
 	height: 8px;
-	background-image: url(./image/sprites.svg), url(./image/sprites.png);
+	background-image: url(./image/sprites.svg), url(./image/sprites.png); // image backup .png; icons changed to display via sprites
 	background-size: 200px 8px;
 	background-repeat: no-repeat;
 	margin: 0 12px 0 10px; 
 //	border: blue dashed 1px; }
 	
 .pencil {
-	/* backup */
 	background-position: -32px 0; }
+	
 .bell {
-	/* backup */
 	background-position: -96px 0; }
+	
 .books {
-	/* backup */
 	background-position: -48px 0; }
+	
 .clock {
-	/* backup */
 	background-position: -80px 0; }
+	
 .star {
-	/* backup */
 	background-position: -128px 0; }
 		
 /* page layout */
-
+	
 .right_column {
 	float: left;
 	padding: 80px 0 0 320px;
